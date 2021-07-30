@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.container {
+    /* width: 50%; */
+    text-align: center;
+    height: auto;
+    width: 50%;
+    margin-left: 120px;
+}
+
+h1 {
+    color: gold;
+    background-color: darkslateblue;
+    font-size: 30px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.content {
+    display: flex;
+    padding: 3px;
+    background-color: palegreen;
+    height: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.days {
+    background-color: tomato;
+    color: snow;
+    padding: 12px;
+}
+
+.hours {
+    background-color: palevioletred;
+    padding: 12px;
+    color: snow;
+}
+
+.minutes {
+    background-color: peru;
+    color: snow;
+    padding: 12px;
+}
+
+.seconds {
+    background-color: purple;
+    padding: 12px;
+    color: snow;
+}
+
+.coundowner {
+    display: flex;
+    background-color: black;
+    height: 120px;
+    padding: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.daysShow {
+    /* background-color: tomato; */
+    color: orange;
+    padding: 18px;
+}
+
+.hoursShow {
+    color: orange;
+    padding: 18px;
+    /* color: snow; */
+}
+
+.minutesShow {
+    color: orange;
+    margin-left: 30px;
+    padding: 18px;
+}
+
+.secondsShow {
+    color: orange;
+    padding: 18px;
+    margin-left: 30px;
+}
